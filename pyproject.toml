@@ -1,0 +1,12 @@
+[project]
+name = "slack-mcp-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "deprecated>=1.2.18",
+    "dotenv>=0.9.9",
+    "google-adk==1.0.0",
+    "mcp==1.9.1",
+]
